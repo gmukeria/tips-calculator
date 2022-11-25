@@ -1,0 +1,17 @@
+.card-container {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  border-radius: 25px;
+}
+
+@media only screen and (min-width: 1000px) {
+  .card-container {
+    width: 990px;
+    flex-direction: row;
+    border-radius: 1.4rem;
+    padding: 2.3rem;
+    height: 479px;
+  }
+}

@@ -1,0 +1,29 @@
+.tips {
+  background-color: hsl(183, 100%, 15%);
+  color: white;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.tips:hover {
+  color: #00474b;
+  background-color: #9fe8df;
+  font-weight: bolder;
+}
+
+.active-tip {
+  color: #00474b;
+  background-color: #26c2ae;
+  font-weight: bolder;
+}
+
+@media only screen and (min-width: 1000px) {
+  .tips {
+    height: 55px;
+  }
+}
